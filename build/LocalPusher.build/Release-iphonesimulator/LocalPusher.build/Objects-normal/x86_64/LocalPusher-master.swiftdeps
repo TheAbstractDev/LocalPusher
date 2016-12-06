@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swift-3.0-RELEASE)"
+options: "ed161ce2689be5fbc4a8cc20a51c010e"
+build_time: [534344146, 862876000]
+inputs:
+  "/Users/Sofiane/Desktop/LocalPusher/LocalPusher/LocalPusher.swift": [9223372036854775807, 0]
+  "/Users/Sofiane/Desktop/LocalPusher/LocalPusher/NotificationContent.swift": [9223372036854775807, 0]

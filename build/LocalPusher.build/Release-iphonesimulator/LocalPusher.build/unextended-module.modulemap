@@ -1,0 +1,10 @@
+framework module LocalPusher {
+  umbrella header "LocalPusher.h"
+
+  export *
+  module * { export * }
+}
+
+module LocalPusher.__Swift {
+    exclude header "LocalPusher-Swift.h"
+}
