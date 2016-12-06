@@ -7,8 +7,6 @@
 //
 
 
-import Foundation
-import UIKit
 import UserNotifications
 
 open class LocalPusher {

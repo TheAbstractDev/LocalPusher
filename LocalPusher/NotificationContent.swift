@@ -6,7 +6,6 @@
 //  Copyright © 2016 Sofiane Beors. All rights reserved.
 //
 
-import Foundation
 import UserNotifications
 
 struct NotificationContent {
