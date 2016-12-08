@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D849BDBD1DF6C2CB00FDA3EE /* LocalPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = D849BDBB1DF6C2CB00FDA3EE /* LocalPusher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D849BDC41DF6C30500FDA3EE /* LocalPusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D849BDC31DF6C30500FDA3EE /* LocalPusher.swift */; };
-		D849BDCA1DF6C7D100FDA3EE /* NotificationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D849BDC91DF6C7D100FDA3EE /* NotificationContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +16,6 @@
 		D849BDBB1DF6C2CB00FDA3EE /* LocalPusher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalPusher.h; sourceTree = "<group>"; };
 		D849BDBC1DF6C2CB00FDA3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D849BDC31DF6C30500FDA3EE /* LocalPusher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPusher.swift; sourceTree = "<group>"; };
-		D849BDC91DF6C7D100FDA3EE /* NotificationContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +50,6 @@
 			children = (
 				D849BDBB1DF6C2CB00FDA3EE /* LocalPusher.h */,
 				D849BDC31DF6C30500FDA3EE /* LocalPusher.swift */,
-				D849BDC91DF6C7D100FDA3EE /* NotificationContent.swift */,
 				D849BDBC1DF6C2CB00FDA3EE /* Info.plist */,
 			);
 			path = LocalPusher;
@@ -139,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D849BDC41DF6C30500FDA3EE /* LocalPusher.swift in Sources */,
-				D849BDCA1DF6C7D100FDA3EE /* NotificationContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
