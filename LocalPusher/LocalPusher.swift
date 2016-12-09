@@ -44,10 +44,9 @@ open class LocalPusher {
         let calendar = Calendar(identifier: calendarId)
         let components = calendar.dateComponents(in: .current, from: a)
         let newComponents = DateComponents(calendar: calendar, timeZone: .current, month: components.month, day: components.day, hour: components.hour, minute: components.minute)
-    
-        let trigger = UNCalendarNotificationTrigger(dateMatching: newComponents, repeats: false)
         notificationContent = NotificationContent(title: t, subtitle: (s ?? nil), body: b, attachements: (attachements ?? nil), repeats: r)
-    
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: newComponents, repeats: false)
         let request = UNNotificationRequest(
           identifier: "localPushScheduled",
           content: notificationContent.content,
@@ -66,7 +65,6 @@ open class LocalPusher {
       notificationContent = NotificationContent(title: t, subtitle: (s ?? nil), body: b, attachements: (attachements ?? nil), repeats: r)
       
       let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 0.1, repeats: r)
-      
       let request = UNNotificationRequest(
         identifier: "localPush",
         content: notificationContent.content,
