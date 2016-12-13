@@ -9,10 +9,40 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LocalPusherTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D849BDB71DF6C2CB00FDA3EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D89F21AA1E003B3400A310B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D89F21B21E003B3400A310B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D89F21C61E003B4E00A310B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D89F21CE1E003B4E00A310B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

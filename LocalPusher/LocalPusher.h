@@ -2,18 +2,12 @@
 //  LocalPusher.h
 //  LocalPusher
 //
-//  Created by Sofiane Beors on 06/12/2016.
+//  Created by Sofiane Beors on 13/12/2016.
 //  Copyright © 2016 Sofiane Beors. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-//! Project version number for LocalPusher.
-FOUNDATION_EXPORT double LocalPusherVersionNumber;
+@interface LocalPusher : NSObject
 
-//! Project version string for LocalPusher.
-FOUNDATION_EXPORT const unsigned char LocalPusherVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <LocalPusher/PublicHeader.h>
-
-
+@end
